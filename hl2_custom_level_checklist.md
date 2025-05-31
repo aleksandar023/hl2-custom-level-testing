@@ -1,4 +1,4 @@
->🔗 For better readability, view the document in Google Sheets format: [Google Sheets format](https://docs.google.com/spreadsheets/d/17luq0CCqfkIL_criP5OvxDQzWQod9SIVYd5c3S6c9CM/edit?usp=sharing)
+>🔗 For better readability, I recommend viewing the document in Google Sheets format: [Google Sheets format](https://docs.google.com/spreadsheets/d/17luq0CCqfkIL_criP5OvxDQzWQod9SIVYd5c3S6c9CM/edit?usp=sharing)
 
 | Zone | Basic Level Functionality                                                                         | Status | Notes |
 | ---- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
