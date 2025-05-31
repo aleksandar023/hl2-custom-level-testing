@@ -1,5 +1,6 @@
 | Zone | Basic Level Functionality                                                                         | Status | Notes |
 | ---- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
+|      | High priority                                                                              |        |       |
 |      | Entity functionality                                                                              |        |       |
 | A1   | Level start                                                                                       |        |       |
 |      | Player spawn (info_player_start) entity is properly set up:                                       |        |       |
