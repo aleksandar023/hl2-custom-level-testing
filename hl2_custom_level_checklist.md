@@ -11,12 +11,12 @@
 | ---- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
 |      | 🟥 **High priority**                                                                             |        |       |
 |      | **Entity functionality**                                                                             |        |       |
-| **A1**   | **Level start**                                                                                       |        |       |
+| **A1**   |📌 **Level start**                                                                                       |        |       |
 |      | Player spawn (info_player_start) entity is properly set up:                                       |        |       |
 |      | *\- Position*                                                                                       |        |       |
 |      | *\- Orientation*                                                                                    |        |       |
 |      | item_suit is placed correctly over info_player_start                                              |        |       |
-| **A1**  | **First Strider encounter sequence**                                                                  |        |       |
+| **A1**  |📌 **First Strider encounter sequence**                                                                  |        |       |
 |      | **Sequence start**                                                                                    |        |       |
 |      | Strider scene trigger (Trigger_once) functions correctly:                                         |        |       |
 |      | *\- Triggrers cameo_strider_maker (npc_template_maker)*                                             |        |       |
@@ -30,7 +30,7 @@
 |      | *\- strider dissapears after reaching cameo_strider_0_goal_1*                                       |        |       |
 |      | **Misc**                                                                                              |        |       |
 |      | player-strider0 (ai_relationship) is set so the strider ignores the player                        |        |       |
-| **A2**   | Mines Entrance Puzzle                                                                             |        |       |
+| **A2**   |📌 Mines Entrance Puzzle                                                                             |        |       |
 |      | The player can remove 4 wooden planks (func_breakable) blocking the door                          |        |       |
 |      | Metal_gate (func_physbox) functions correctly:                                                    |        |       |
 |      | \- The player can remove 2 planks (func_physbox) supporting the mines gate                        |        |       |
