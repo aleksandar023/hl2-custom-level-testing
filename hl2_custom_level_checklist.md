@@ -13,21 +13,21 @@
 |      | **Entity functionality**                                                                              |        |       |
 | **A1**   | **Level start**                                                                                       |        |       |
 |      | Player spawn (info_player_start) entity is properly set up:                                       |        |       |
-|      | \- Position                                                                                       |        |       |
-|      | \- Orientation                                                                                    |        |       |
+|      | *\- Position*                                                                                       |        |       |
+|      | *\- Orientation*                                                                                    |        |       |
 |      | item_suit is placed correctly over info_player_start                                              |        |       |
 |      | First Strider encounter sequence                                                                  |        |       |
 |      | **Sequence start**                                                                                    |        |       |
 |      | Strider scene trigger (Trigger_once) functions correctly:                                         |        |       |
-|      | \- Triggrers cameo_strider_maker (npc_template_maker)                                             |        |       |
+|      | *\- Triggrers cameo_strider_maker (npc_template_maker)*                                             |        |       |
 |      | **NPC spawning**                                                                                      |        |       |
 |      | cameo_strider_maker (npc_template_maker) functions correctly:                                     |        |       |
-|      | \- Spawns cameo_strider (npc_strider)                                                             |        |       |
+|      | *\- Spawns cameo_strider (npc_strider)*                                                             |        |       |
 |      | **NPC pathing**                                                                                       |        |       |
 |      | cameo_strider moves across the bridge towards cameo_strider_0_goal_1 (path_corner)                |        |       |
-|      | \- info_node_air_hint entities are properly spaced along the path                                 |        |       |
-|      | \- info_node_air_hint entities use the correct Hint Group: stry0                                  |        |       |
-|      | \- strider dissapears after reaching cameo_strider_0_goal_1                                       |        |       |
+|      | *\- info_node_air_hint entities are properly spaced along the path*                                 |        |       |
+|      | *\- info_node_air_hint entities use the correct Hint Group: stry0*                                  |        |       |
+|      | *\- strider dissapears after reaching cameo_strider_0_goal_1*                                       |        |       |
 |      | **Misc**                                                                                              |        |       |
 |      | player-strider0 (ai_relationship) is set so the strider ignores the player                        |        |       |
 | **A2**   | Mines Entrance Puzzle                                                                             |        |       |
