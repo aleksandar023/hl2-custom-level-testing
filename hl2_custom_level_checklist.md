@@ -3,7 +3,7 @@
 <details>
 <summary>How do I dropdown?</summary>
 <br>
-!(images/Zone_map.png)
+(images/Zone_map.png)
 </details>
 
 | Zone | Basic Level Functionality                                                                         | Status | Notes |
