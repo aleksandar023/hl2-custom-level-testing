@@ -1,9 +1,10 @@
 >🔗 For better readability, I recommend viewing the document in Google Sheets format: [Google Sheets format](https://docs.google.com/spreadsheets/d/17luq0CCqfkIL_criP5OvxDQzWQod9SIVYd5c3S6c9CM/edit?usp=sharing)
 
 <details>
-<summary>How do I dropdown?</summary>
-<br>
-(images/Zone_map.png)
+  <summary>See the reference image for easier orientation in the map?</summary>
+  <p>
+    <img src="images/Zone_map.png" alt="My Image">
+  </p>
 </details>
 
 | Zone | Basic Level Functionality                                                                         | Status | Notes |
