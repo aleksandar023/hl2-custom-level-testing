@@ -16,7 +16,7 @@
 |      | *\- Position*                                                                                       |        |       |
 |      | *\- Orientation*                                                                                    |        |       |
 |      | item_suit is placed correctly over info_player_start                                              |        |       |
-| **A1**  |📌 **First Strider encounter sequence**                                                                  |        |       |
+| **A1**  |📌 **First Strider encounter**                                                                  |        |       |
 |      | **Sequence start**                                                                                    |        |       |
 |      | Strider scene trigger (Trigger_once) functions correctly:                                         |        |       |
 |      | *\- Triggrers cameo_strider_maker (npc_template_maker)*                                             |        |       |
@@ -27,12 +27,12 @@
 |      | cameo_strider moves across the bridge towards cameo_strider_0_goal_1 (path_corner)                |        |       |
 |      | *\- info_node_air_hint entities are properly spaced along the path*                                 |        |       |
 |      | *\- info_node_air_hint entities use the correct Hint Group: stry0*                                  |        |       |
-|      | *\- strider dissapears after reaching cameo_strider_0_goal_1*                                       |        |       |
+|      | *\- strider disappears after reaching cameo_strider_0_goal_1*                                       |        |       |
 |      | **Misc**                                                                                              |        |       |
 |      | player-strider0 (ai_relationship) is set so the strider ignores the player                        |        |       |
 | **A2**   |📌 Mines Entrance Puzzle                                                                             |        |       |
 |      | The player can remove 4 wooden planks (func_breakable) blocking the door                          |        |       |
-|      | Metal_gate (func_physbox) functions correctly:                                                    |        |       |
+|      | Metal_gate (func_physbox) opens correctly:                                                    |        |       |
 |      | \- The player can remove 2 planks (func_physbox) supporting the mines gate                        |        |       |
 |      | \- ballsocket2 (phys_ballsocket) enables smooth gate rotation                                     |        |       |
 |      | Autosave 1                                                                                        |        |       |
@@ -129,7 +129,7 @@
 |      | \- Interruptibility: Off                                                                          |        |       |
 |      | \- Loop Action Animation: Yes                                                                     |        |       |
 |      | \- Can be canceled by:                                                                            |        |       |
-|      | \- Damaging the target npc                                                                        |        |       |
+|      | \- Damaging the target NPC                                                                        |        |       |
 |      | \- Window_thump_cancel_trigger (trigger_once)                                                     |        |       |
 | A8   | Sequence start - restoring elevator power                                                         |        |       |
 |      | power_button_mines (func_button) starts:                                                          |        |       |
@@ -141,7 +141,7 @@
 |      | Pressing the elevator button                                                                      |        |       |
 |      | elevator_button_bottom_floor (func_button) works correctly:                                       |        |       |
 |      | \- Plays sound elevator_sounds (ambient generic)                                                  |        |       |
-|      | \- Elevator elevator2 (func_tracktrain) starts decending                                          |        |       |
+|      | \- Elevator elevator2 (func_tracktrain) starts descending                                          |        |       |
 |      | \- Triggers elevator_events (logic_relay)                                                         |        |       |
 |      | \- Sequentially activates:                                                                        |        |       |
 |      | \-green_light1 (delay 10s)                                                                        |        |       |
@@ -168,7 +168,7 @@
 |      | \- Spawns zombie_breakthru_elevator2 (npc_zombie)                                                 |        |       |
 |      | zombie_breakthru_elevator3_maker (npc_template_maker) works correctly:                            |        |       |
 |      | \- Spawns zombie_breakthru_elevator3 (npc_zombie)                                                 |        |       |
-|      | Left Door breaktrough scripted Sequence                                                           |        |       |
+|      | Left Door breakthrough scripted Sequence                                                           |        |       |
 |      | zombie_breakthru_elevator1_seq (scripted_sequence) has proper inputs:                             |        |       |
 |      | \- Target NPC: zombie_breakthru_elevator1                                                         |        |       |
 |      | \- Action animation: Breakthrough                                                                 |        |       |
@@ -206,7 +206,7 @@
 |      | \- Closes elevator_door (prop_dynamic)                                                            |        |       |
 |      | \- Starts elevator2 (func_tracktrain) ascent                                                      |        |       |
 | **A7**   | Level transition                                                                                  |        |       |
-|      | Second_part_5 trigger (trigger_changelevel) succesfully triggers the new level: Second_part_5.bsp |        |       |
+|      | Second_part_5 trigger (trigger_changelevel) successfully triggers the new level: Second_part_5.bsp |        |       |
 |      | Pickups                                                                                           |        |       |
 |      | High priority                                                                                     |        |       |
 |      | Weapons are obtainable:                                                                           |        |       |
@@ -215,7 +215,7 @@
 | **A4**   | \- Pistols x2 (weapon_pistol)                                                                     |        |       |
 | **A9**   | \- Shotgun (weapon_shotgun)                                                                       |        |       |
 |      |🟨 Medium priority                                                                                   |        |       |
-|      | All crates are obraitanble:                                                                       |        |       |
+|      | All crates are obaitanble:                                                                       |        |       |
 | **A2**   | item_crate_1 - contains: item_battery                                                             |        |       |
 | **A5**   | item_crate_2 - contains: item_dynamic_resupply                                                    |        |       |
 | **A6**   | item_crate_3 - contains: item_dynamic_resupply                                                    |        |       |
