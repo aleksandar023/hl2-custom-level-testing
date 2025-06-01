@@ -16,7 +16,7 @@
 |      | *\- Position*                                                                                       |        |       |
 |      | *\- Orientation*                                                                                    |        |       |
 |      | item_suit is placed correctly over info_player_start                                              |        |       |
-|      | First Strider encounter sequence                                                                  |        |       |
+| **A1**  | **First Strider encounter sequence**                                                                  |        |       |
 |      | **Sequence start**                                                                                    |        |       |
 |      | Strider scene trigger (Trigger_once) functions correctly:                                         |        |       |
 |      | *\- Triggrers cameo_strider_maker (npc_template_maker)*                                             |        |       |
