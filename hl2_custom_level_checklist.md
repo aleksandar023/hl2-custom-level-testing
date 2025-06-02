@@ -6,6 +6,10 @@
     <img src="images/Zone_map.png" alt="My Image">
   </p>
 </details>
+![Alt text](images/Custom_level_diagram.drawio.svg)
+
+![Diagram](images/Custom_level_diagram.drawio.svg)
+
 
 | Zone | Basic Level Functionality                                                                         | Status | Notes |
 | ---- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
