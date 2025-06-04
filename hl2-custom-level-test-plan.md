@@ -92,8 +92,8 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 ## Deliverables
 The following materials will be produced and maintained as part of the testing process:
 
-* **Design Document** - A reference document outlining the rationale behind key level design decisions, including gameplay mechanics, level layout, narrative elements, environmental storytelling, and primary inspirations.
-
+* 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key level design decisions, including gameplay mechanics, level layout, narrative elements, environmental storytelling, and primary inspiration:
+  
 * **Test Plan Document** – This document outlining the objectives, scope, strategy, environment, and approach used in testing the level.
 
 * **Gameplay and Logic Checklist** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
@@ -102,8 +102,7 @@ The following materials will be produced and maintained as part of the testing p
 
 * **Visual References:**
 
-  * Top-down map overview with marked zones, spawn/exit points, encounter triggers, and pickups:   
-📎 [Zones_map.jpg](./images/The_Tunnels_System_Zones_Map.png)
+  * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, encounter triggers, and pickups:   
 
   * Entity sequence diagrams (e.g., puzzle/encounter flowcharts) created with Draw.io for clarity on logic dependencies.
 
