@@ -102,7 +102,8 @@ The following materials will be produced and maintained as part of the testing p
 
 * **Visual References:**
 
-  * Top-down map overview with marked zones, spawn/exit points, encounter triggers, and pickups.
+  * Top-down map overview with marked zones, spawn/exit points, encounter triggers, and pickups:   
+📎 [Zones_map.jpg](./images/The_Tunnels_System_Zones_Map.png)
 
   * Entity sequence diagrams (e.g., puzzle/encounter flowcharts) created with Draw.io for clarity on logic dependencies.
 
