@@ -1,7 +1,7 @@
 # Test Plan: Custom Half-Life 2 Level
 
 ## Introduction:
-This test plan outlines the manual QA process for the "Mines" section of my custom Half-Life 2 level, titled "Coast”. The goal is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. Priority is given to entity functionality and logical flow over visuals or performance.
+This test plan outlines the manual QA process for the "The Tunnels System" section of my custom Half-Life 2 level, titled "Coast”. The goal is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. Priority is given to entity functionality and logical flow over visuals or performance.
 
 
 ## Test Objectives
