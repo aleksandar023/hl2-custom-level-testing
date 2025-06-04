@@ -13,11 +13,11 @@ This test plan outlines the manual QA process for the "Mines" section of my cust
 ## Scope of Testing
 
 ### Included in this phase:
-* Level blockout and navigation
+* **Level blockout and navigation**
    * Accessibility of all playable areas
    * Prevention of out-of-bounds exploits or unintended shortcuts
    * Proper collision for world geometry and props
-* Level gameplay-critical logic
+* **Level gameplay-critical logic**
    * Verification of key elements (point and brush entities) to ensure enemy encounters and puzzles work as intended:
    * Trigger volumes (e.g., trigger_once, trigger_multiple, trigger_relay).
    * NPC placement, spawn logic, and navigation.
@@ -27,10 +27,10 @@ This test plan outlines the manual QA process for the "Mines" section of my cust
    * Base lighting that contributes to gameplay (visibility and guidance).
 
 
-* Autosaving and level completion
+* **Autosaving and level completion**
    * Functionality and timing of trigger_autosave volumes.
    * Proper activation of the level completion trigger (trigger_changelevel).
-*Pickups
+* **Pickups**
    * Proper placement and availability of essential and non-essential weapons (crowbar, gravity gun, pistol).
    * Functionality of optional pickups (e.g., shotgun, health kits, batteries, crates).
    * Interaction logic for breakables and physics-based items.
