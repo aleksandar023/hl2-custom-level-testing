@@ -59,7 +59,7 @@
 |       | window_thumper_spawner2 (npc_template_maker) works correctly:                                     |        |       |
 |       | *\- Spawns window_thumper2 (npc_zombie)*                                                            |        |       |
 |       | *\- Triggers window_thump2 (scripted_sequence)*                                                     |        |       |
-|       | Scripted Sequence (Door pound)                                                                    |        |       |
+|       | **Scripted Sequence (Door pound animation)**                                                                    |        |       |
 |       | window_thump2 (scripted_sequence) has proper inputs:                                              |        |       |
 |       | *\- Target NPC: window_thumper2*                                                                    |        |       |
 |       | *\- Action animation: WallPound*                                                                    |        |       |
@@ -71,9 +71,9 @@
 |       | rubble_tunnel_door_2_lock (prop_physics_override) works correctly:                                |        |       |
 |       | *\- can be destroyed*                                                                               |        |       |
 |       | When destroyed:                                                                                   |        |       |
-|       | *\- Opens rubble_tunnel_door_2 (func_door_rotating) to open*                                        |        |       |
-|       | *\- Cancels cancels window_thump2 (scripted sequence)*                                              |        |       |
-|       | *\- Starts thumper2_zombie_schedule (aiscripted_schedule)*                                          |        |       |
+|       |   *\- Opens rubble_tunnel_door_2 (func_door_rotating) to open*                                        |        |       |
+|       |   *\- Cancels cancels window_thump2 (scripted sequence)*                                              |        |       |
+|       |   *\- Starts thumper2_zombie_schedule (aiscripted_schedule)*                                          |        |       |
 |       | **AI Schedule Behavior**                                                                              |        |       |
 |       | thumper2_zombie_schedule (aiscripted_schedule) works correctly:                                   |        |       |
 |       | *\- Affects window_thumper2 (npc_zombie)*                                                           |        |       |
@@ -111,7 +111,7 @@
 |       | suprise_zombie1_maker (npc_template_maker) works correctly:                                       |        |       |
 |       | *\- Spawns suprise_zombie1 (npc_zombie)*                                                            |        |       |
 |       | *\- Triggers script_surprise_zombiebreakthru (scripted_sequence)*                                   |        |       |
-|       | **Scripted Sequence (Zombie breaks through planks)**                                                  |        |       |
+|       | **Scripted Sequence (Zombie breaking through planks animation)**                                                  |        |       |
 |       | script_surprise_zombiebreakthru (scripted_sequence) has proper inputs:                            |        |       |
 |       | *\- Target NPC: suprise_zombie1*                                                                    |        |       |
 |       | *\- Action animation: Breakthrough*                                                                 |        |       |
@@ -122,7 +122,7 @@
 |       | suprise_zombie1_schedule (aiscripted_schedule) works correctly:                                   |        |       |
 |       | *\- Target NPC: suprise_zombie1 (npc_zombie)*                                                       |        |       |
 |       | *\- Goal entity: the player*                                                                        |        |       |
-|       | **Scripted Animation (Zombie wake-up)**                                                               |        |       |
+|       | **Scripted Sequence (Zombie wake-up animation)**                                                               |        |       |
 |       | npc_zombie_wakeup2 (scripted_sequence) has proper inputs:                                         |        |       |
 |       | *\- Target NPC: suprise_zombie2 (npc_zombie)*                                                       |        |       |
 |       | *\- Action animation: slumprise_a2*                                                                 |        |       |
@@ -140,31 +140,31 @@
 |       | *\- Triggers window_thump (scripted_sequence)*                                                      |        |       |
 |       | **Scripted Sequence (Window thump animation)**                                                                   |        |       |
 |       | window_thump (scripted_sequence) has proper inputs:                                               |        |       |
-|       | \- Target NPC: window_thumper                                                                     |        |       |
-|       | \- Action animation: WallPound                                                                    |        |       |
-|       | \- Interruptibility: Off                                                                          |        |       |
-|       | \- Loop Action Animation: Yes                                                                     |        |       |
-|       | \- Can be canceled by:                                                                            |        |       |
-|       | \- Damaging the target NPC                                                                        |        |       |
-|       | \- Window_thump_cancel_trigger (trigger_once)                                                     |        |       |
-| A8    | 📌 Restoring elevator power                                                                          |        |       |
+|       | *\- Target NPC: window_thumper*                                                                     |        |       |
+|       | *\- Action animation: WallPound*                                                                    |        |       |
+|       | *\- Interruptibility: Off*                                                                          |        |       |
+|       | *\- Loop Action Animation: Yes*                                                                     |        |       |
+|       | - Can be canceled by:                                                                            |        |       |
+|       |   *\- Damaging the target NPC*                                                                        |        |       |
+|       |   *\- Window_thump_cancel_trigger (trigger_once)*                                                     |        |       |
+| A8    | 📌 **Restoring elevator power**                                                                          |        |       |
 |       | power_button_mines (func_button) starts:                                                          |        |       |
-|       | \- Unlocks elevator_button_bottom_floor (func_button)                                             |        |       |
-|       | \- starts "turn_ON" animation                                                                     |        |       |
-|       | \- disables elevator_spark (elevator_spark) near the elevator button                              |        |       |
-|       | \- turns on the green_light (light) near the elevator button                                      |        |       |
-| A7    | 📌 Elevator ambush sequence                                                                          |        |       |
-|       | Pressing the elevator button                                                                      |        |       |
+|       | *\- Unlocks elevator_button_bottom_floor (func_button)*                                             |        |       |
+|       | *\- starts "turn_ON" animation*                                                                     |        |       |
+|       | *\- disables elevator_spark (elevator_spark) near the elevator button*                              |        |       |
+|       | *\- turns on the green_light (light) near the elevator button*                                      |        |       |
+| A7    | 📌 **Elevator ambush sequence**                                                                          |        |       |
+|       | **Pressing the elevator button**                                                                      |        |       |
 |       | elevator_button_bottom_floor (func_button) works correctly:                                       |        |       |
-|       | \- Plays sound elevator_sounds (ambient generic)                                                  |        |       |
-|       | \- Elevator elevator2 (func_tracktrain) starts descending                                         |        |       |
-|       | \- Triggers elevator_events1 (logic_relay)                                                        |        |       |
-|       | \- Triggers elevator_events2 (logic_relay)                                                        |        |       |
-|       | \- Sequentially activates:                                                                        |        |       |
-|       | \-green_light1 (delay 10s)                                                                        |        |       |
-|       | \-green_light2 (delay 20s)                                                                        |        |       |
-|       | \-green_light3 (delay 30s)                                                                        |        |       |
-|       | \-green_light4 (delay 40s)                                                                        |        |       |
+|       | *\- Plays sound elevator_sounds (ambient generic)*                                                  |        |       |
+|       | *\- Elevator elevator2 (func_tracktrain) starts descending*                                         |        |       |
+|       | *\- Triggers elevator_events1 (logic_relay)*                                                        |        |       |
+|       | *\- Triggers elevator_events2 (logic_relay)*                                                        |        |       |
+|       | *\- Sequentially activates:*                                                                        |        |       |
+|       |   *\-green_light1 (delay 10s)*                                                                        |        |       |
+|       |   *\-green_light2 (delay 20s)*                                                                        |        |       |
+|       |   *\-green_light3 (delay 30s)*                                                                        |        |       |
+|       |   *\-green_light4 (delay 40s)*                                                                        |        |       |
 |       | Elevator ambush - Left room                                                                       |        |       |
 |       | Triggers elevator_events1 (logic_relay) works correctly:                                          |        |       |
 |       | \- Turns on enemyfinder_elev (npc_enemyfinder)                                                    |        |       |
