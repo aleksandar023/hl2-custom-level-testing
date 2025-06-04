@@ -11,47 +11,6 @@
 ![Diagram](images/Custom_level_diagram.drawio.svg)
 
 
-| Zone | Basic Level Functionality                                                                         | Status | Notes |
-| ---- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
-|      | 🟥 **High priority**                                                                             |        |       |
-|      | **Entity functionality**                                                                             |        |       |
-| **A1**   |📌 **Level start**                                                                                       |        |       |
-|      | Player spawn (info_player_start) entity is properly set up:                                       |        |       |
-|      | *\- Position*                                                                                       |        |       |
-|      | *\- Orientation*                                                                                    |        |       |
-|      | item_suit is placed correctly over info_player_start                                              |        |       |
-| **A1**  |📌 **First Strider encounter**                                                                  |        |       |
-|      | **Sequence start**                                                                                    |        |       |
-|      | Strider scene trigger (Trigger_once) functions correctly:                                         |        |       |
-|      | *\- Triggrers cameo_strider_maker (npc_template_maker)*                                             |        |       |
-|      | **NPC spawning**                                                                                      |        |       |
-|      | cameo_strider_maker (npc_template_maker) functions correctly:                                     |        |       |
-|      | *\- Spawns cameo_strider (npc_strider)*                                                             |        |       |
-|      | **NPC pathing**                                                                                       |        |       |
-|      | cameo_strider moves across the bridge towards cameo_strider_0_goal_1 (path_corner)                |        |       |
-|      | *\- info_node_air_hint entities are properly spaced along the path*                                 |        |       |
-|      | *\- info_node_air_hint entities use the correct Hint Group: stry0*                                  |        |       |
-|      | *\- strider disappears after reaching cameo_strider_0_goal_1*                                       |        |       |
-|      | **Misc**                                                                                              |        |       |
-|      | player-strider0 (ai_relationship) is set so the strider ignores the player                        |        |       |
-| **A2**   |📌 Mines Entrance Puzzle                                                                             |        |       |
-|      | The player can remove 4 wooden planks (func_breakable) blocking the door                          |        |       |
-|      | Metal_gate (func_physbox) opens correctly:                                                    |        |       |
-|      | \- The player can remove 2 planks (func_physbox) supporting the mines gate                        |        |       |
-|      | \- ballsocket2 (phys_ballsocket) enables smooth gate rotation                                     |        |       |
-|      | Autosave 1                                                                                        |        |       |
-| **A3**   | Autosave1 volume (trigger_autosave) saves the game                                                |        |       |
-| **A4**   | Door lock puzzle                                                                                  |        |       |
-|      | Sequence start                                                                                    |        |       |
-|      | Thump_trigger2 (trigger_once) functions correctly:                                                |        |       |
-|      | \- Triggers window_thumper_spawner2 (npc_template_maker)                                          |        |       |
-|      | NPC spawning                                                                                      |        |       |
-|      | window_thumper_spawner2 (npc_template_maker) works correctly:                                     |        |       |
-|      | \- Spawns window_thumper2 (npc_zombie)                                                            |        |       |
-
-
-
-
 | **Zone**  | Gameplay and Logic Checklist                                                                      | Status | Notes |
 | ----- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
 |       | 🟥 **High priority**                                                                                      |        |       |
@@ -82,21 +41,21 @@
 | A2    | 📌 **Mines Entrance Puzzle**                                                                             |        |       |
 |       | **Essential weapon pickup**                                                                           |        |       |
 |       | Crowbar (weapon_crowbar) is obtainable                                                            |        |       |
-|       | Mines entrance room                                                                               |        |       |
+|       | **Mines entrance room**                                                                               |        |       |
 |       | The player can remove 4 wooden planks (func_breakable) blocking the door                          |        |       |
-|       | Essential weapon pickup                                                                           |        |       |
+|       | **Essential weapon pickup**                                                                           |        |       |
 |       | Gravity gun (weapon_physcannon) is obtainable                                                     |        |       |
-|       | Metal gate                                                                                        |        |       |
+|       | **Metal gate**                                                                                        |        |       |
 |       | Metal_gate (func_physbox) opens correctly:                                                        |        |       |
 |       | *\- The player can remove 2 planks (func_physbox) supporting the mines gate*                        |        |       |
 |       | *\- ballsocket2 (phys_ballsocket) enables smooth gate rotation*                                     |        |       |
-|       | Autosave 1                                                                                        |        |       |
+|       | **Autosave 1**                                                                                        |        |       |
 | A3    | Autosave1 volume (trigger_autosave) saves the game                                                |        |       |
 | A4    | 📌 **Door lock puzzle**                                                                                  |        |       |
-|       | Sequence start                                                                                    |        |       |
+|       | **Sequence start**                                                                                    |        |       |
 |       | Thump_trigger2 (trigger_once) functions correctly:                                                |        |       |
 |       | *\- Triggers window_thumper_spawner2 (npc_template_maker)*                                          |        |       |
-|       | NPC spawning                                                                                      |        |       |
+|       | **NPC spawning**                                                                                      |        |       |
 |       | window_thumper_spawner2 (npc_template_maker) works correctly:                                     |        |       |
 |       | *\- Spawns window_thumper2 (npc_zombie)*                                                            |        |       |
 |       | *\- Triggers window_thump2 (scripted_sequence)*                                                     |        |       |
@@ -106,33 +65,33 @@
 |       | *\- Action animation: WallPound*                                                                    |        |       |
 |       | *\- Loop Action Animation: Yes*                                                                     |        |       |
 |       | *\- Interruptibility: Off*                                                                          |        |       |
-|       | Essential weapon pickup                                                                           |        |       |
+|       | **Essential weapon pickup**                                                                           |        |       |
 |       | Pistol (weapon_pistol) is obtainable                                                              |        |       |
-|       | Door Lock Interaction                                                                             |        |       |
+|       | **Door Lock Interaction**                                                                             |        |       |
 |       | rubble_tunnel_door_2_lock (prop_physics_override) works correctly:                                |        |       |
-|       | \- can be destroyed                                                                               |        |       |
+|       | *\- can be destroyed*                                                                               |        |       |
 |       | When destroyed:                                                                                   |        |       |
-|       | \- Opens rubble_tunnel_door_2 (func_door_rotating) to open                                        |        |       |
-|       | \- Cancels cancels window_thump2 (scripted sequence)                                              |        |       |
-|       | \- Starts thumper2_zombie_schedule (aiscripted_schedule)                                          |        |       |
-|       | AI Schedule Behavior                                                                              |        |       |
+|       | *\- Opens rubble_tunnel_door_2 (func_door_rotating) to open*                                        |        |       |
+|       | *\- Cancels cancels window_thump2 (scripted sequence)*                                              |        |       |
+|       | *\- Starts thumper2_zombie_schedule (aiscripted_schedule)*                                          |        |       |
+|       | **AI Schedule Behavior**                                                                              |        |       |
 |       | thumper2_zombie_schedule (aiscripted_schedule) works correctly:                                   |        |       |
-|       | \- Affects window_thumper2 (npc_zombie)                                                           |        |       |
-|       | \- Zombie runs to thump2_zombie_target (info_target)                                              |        |       |
-| A5    |📌 Zombie Ambush 1 sequence                                                                          |        |       |
-|       | Sequence start                                                                                    |        |       |
+|       | *\- Affects window_thumper2 (npc_zombie)*                                                           |        |       |
+|       | *\- Zombie runs to thump2_zombie_target (info_target)*                                              |        |       |
+| A5    |📌 **Zombie Ambush 1 sequence**                                                                          |        |       |
+|       | **Sequence start**                                                                                    |        |       |
 |       | Ambush_trigger_1 (trigger_once) works correctly:                                                  |        |       |
-|       | \- Turns on pocket_1_finder (npc_enemyfinder)                                                     |        |       |
-|       | \- Triggers pocket_2_zombie_1_maker (npc_template_maker)                                          |        |       |
-|       | \- Triggers pocket_2_zombie_2_maker (npc_template_maker)                                          |        |       |
-|       | NPC spawning                                                                                      |        |       |
+|       | *\- Turns on pocket_1_finder (npc_enemyfinder)*                                                     |        |       |
+|       | *\- Triggers pocket_2_zombie_1_maker (npc_template_maker)*                                          |        |       |
+|       | *\- Triggers pocket_2_zombie_2_maker (npc_template_maker)*                                          |        |       |
+|       | **NPC spawning**                                                                                      |        |       |
 |       | pocket_2_zombie_1_maker (npc_template_maker) works correctly:                                     |        |       |
-|       | \- Spawns pocket_2_zombie_1 (npc_zombie)<br>                                                      |        |       |
-|       | \- Triggers pocket_2_zombie_1_schedule (aiscripted_schedule)<br>                                  |        |       |
+|       | *\- Spawns pocket_2_zombie_1 (npc_zombie)*<br>                                                      |        |       |
+|       | *\- Triggers pocket_2_zombie_1_schedule (aiscripted_schedule)*<br>                                  |        |       |
 |       | pocket_2_zombie_2_maker (npc_template_maker) works correctly:                                     |        |       |
-|       | \- Spawns pocket_2_zombie_2 (npc_zombie)                                                          |        |       |
-|       | \- Triggers pocket_2_zombie_2_schedule (aiscripted_schedule)                                      |        |       |
-|       | AI Schedules                                                                                      |        |       |
+|       | *\- Spawns pocket_2_zombie_2 (npc_zombie)*                                                          |        |       |
+|       | *\- Triggers pocket_2_zombie_2_schedule (aiscripted_schedule)*                                      |        |       |
+|       | **AI Schedules**                                                                                      |        |       |
 |       | pocket_2_zombie_1_schedule (aiscripted_schedule) works correctly:                                 |        |       |
 |       | \- Target NPC: pocket_2_zombie_1 (npc_zombie)                                                     |        |       |
 |       | \- Goal entity: target_pocket1 (info_target)                                                      |        |       |
