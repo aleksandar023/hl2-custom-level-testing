@@ -66,7 +66,7 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 * **Game Version:** Half-Life 2, 
   * **Build ID:** 17324696
 
-* **Map File:** Level_mines.bsp
+* **Map File:** Level_tunnels_system.bsp
   * **Version:** v1.6
 
 * **Tools used:**
@@ -96,7 +96,7 @@ The following materials will be produced and maintained as part of the testing p
   
 * **Test Plan Document** – This document outlining the objectives, scope, strategy, environment, and approach used in testing the level.
 
-* **Gameplay and Logic Checklist** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
+* 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
 
 * **Bug Report Log** – A log of all identified bugs, including descriptions, reproduction steps, affected entities, map areas, and resolution status.
 
@@ -106,7 +106,7 @@ The following materials will be produced and maintained as part of the testing p
 
   * Entity sequence diagrams (📎 **[Part1](./images/The_Tunnels_System_Diagram_Part_1.drawio.svg)** & 📎 **[Part2](./images/The_Tunnels_System_Diagram_Part_2.drawio.svg)**) created with Draw.io for clarity on logic dependencies.
 
-* **Test Summary Report** – A short summary of the testing outcome, major findings, and final recommendations.
+* **Test Summary Report** – A concise overview of testing outcomes, including the areas covered, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
 
 ## Exit Criteria
 
