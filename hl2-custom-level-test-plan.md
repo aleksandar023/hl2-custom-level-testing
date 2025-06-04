@@ -1,48 +1,47 @@
 # Test Plan: Custom Half-Life 2 Level
 
 ## Introduction:
-This test plan outlines the manual QA process for the "Mines" section of my custom Half-Life 2 level, titled "Coast”. The goal is to verify gameplay-critical logic and ensuring reliable player progression through all enemy encounters and puzzles. Priority is given to entity functionality and logical flow over visuals or performance.
+This test plan outlines the manual QA process for the "Mines" section of my custom Half-Life 2 level, titled "Coast”. The goal is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. Priority is given to entity functionality and logical flow over visuals or performance.
 
 
 ## Test Objectives
 
-Validate the level's layout and navigation, ensuring all intended areas of the level are accessible 
-Ensure all enemy encounters and puzzles play out correctly by verifying the behavior and placement of individual point and brush entities.
-
-Verify the correct placement and functionality of pickups and objects
+* Validate the level's layout and navigation, ensuring all intended areas of the level are accessible 
+* Ensure all enemy encounters and puzzles play out correctly by verifying the behaviour and placement of individual point and brush entities.
+* Verify the correct placement and functionality of pickups and objects
 
 ## Scope of Testing
 
-
-Level blockout and navigation
-Accessibility of all playable areas
-Prevention of out-of-bounds exploits or unintended shortcuts
-Proper collision for world geometry and props
-Level Logic and Scripting
-Verification of key elements (point and brush entities) to ensure enemy encounters and puzzles work as intended:
-Trigger volumes (e.g., trigger_once, trigger_multiple, trigger_relay).
-NPC placement, spawn logic, and navigation.
-Scripted sequences (e.g., animations, choreographed scenes).
-Interactive objects (e.g., doors, buttons, key pickups).
-Crucial sound cues tied to gameplay logic.
-Base lighting that contributes to gameplay (visibility and guidance).
-
-
-Autosaving and level completion
-Functionality and timing of trigger_autosave volumes.
-Proper activation of the level completion trigger (trigger_changelevel).
-Pickups
-Proper placement and availability of essential and non-essential weapons (crowbar, gravity gun, pistol).
-Functionality of optional pickups (e.g., shotgun, health kits, batteries, crates).
-Interaction logic for breakables and physics-based items.
+### Included in this phase:
+* Level blockout and navigation
+   * Accessibility of all playable areas
+   * Prevention of out-of-bounds exploits or unintended shortcuts
+   * Proper collision for world geometry and props
+* Level gameplay-critical logic
+   * Verification of key elements (point and brush entities) to ensure enemy encounters and puzzles work as intended:
+   * Trigger volumes (e.g., trigger_once, trigger_multiple, trigger_relay).
+   * NPC placement, spawn logic, and navigation.
+   * Scripted sequences (e.g., animations, choreographed scenes).
+   * Interactive objects (e.g., doors, buttons, key pickups).
+   * Crucial sound cues tied to gameplay logic.
+   * Base lighting that contributes to gameplay (visibility and guidance).
 
 
-Excluded from this phase:
-Lighting, shadows, and visual polish
-Non-cruical sound effects, music, and voice lines
-Final environmental detail passes
-Performance optimization and FPS stability
-Art/asset review (textures, models)
+* Autosaving and level completion
+   * Functionality and timing of trigger_autosave volumes.
+   * Proper activation of the level completion trigger (trigger_changelevel).
+*Pickups
+   * Proper placement and availability of essential and non-essential weapons (crowbar, gravity gun, pistol).
+   * Functionality of optional pickups (e.g., shotgun, health kits, batteries, crates).
+   * Interaction logic for breakables and physics-based items.
+
+
+### Excluded from this phase:
+* Lighting, shadows, and visual polish
+* Non-cruical sound effects, music, and voice lines
+* Final environmental detail passes
+* Performance optimization and FPS stability
+* Art/asset review (textures, models)
 
 
 ## Test Strategy & Approach
