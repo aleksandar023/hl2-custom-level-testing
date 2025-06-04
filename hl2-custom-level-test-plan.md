@@ -61,15 +61,15 @@ This test plan outlines the manual QA process for the "Mines" section of my cust
 
 ## Environment and Tools
 
-* Platform: PC, Windows 10
+* **Platform:** PC, Windows 10
 
-* Game Version: Half-Life 2, 
-  * Build ID: 17324696
+* **Game Version:** Half-Life 2, 
+  * **Build ID:** 17324696
 
-* Map File: Level_mines.bsp
-  * Version: v1.6
+* **Map File:** Level_mines.bsp
+  * **Version:** v1.6
 
-* Tools used:
+* **Tools used:**
 
   * Valve Hammer Editor [version 4.1] - for in-editor testing
   * Google Sheets - for checklist creation and test tracking
@@ -78,7 +78,7 @@ This test plan outlines the manual QA process for the "Mines" section of my cust
 
 
 
-* Testing Aids (Console Commands):
+* **Testing Aids (Console Commands):**
  		
   * map [mapname] – to reload or jump to specific test points
   * sv_cheats 1 – to enable debug/testing tools
