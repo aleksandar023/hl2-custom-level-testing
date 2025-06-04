@@ -8,7 +8,7 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 
 * Validate the level's layout and navigation, ensuring all intended areas of the level are accessible 
 * Ensure all enemy encounters and puzzles play out correctly by verifying the behaviour and placement of individual point and brush entities.
-* Verify the correct placement and functionality of pickups and objects
+* Verify the correct placement and functionality of interactible objects
 
 ## Scope of Testing
 
