@@ -18,7 +18,7 @@
 |       | All intended areas of the level are accessible                                                    |        |       |
 |       | The player cannot get outside the playable bounds                                                 |        |       |
 |       | Level geometry has consistent collision (no invisible walls)                                      |        |       |
-|       | Entity functionality                                                                              |        |       |
+|       | **Entity functionality**                                                                              |        |       |
 | **A1**    | 📌 **Level start**                                                                                         |        |       |
 |       | Player spawn (info_player_start) entity is properly set up:                                       |        |       |
 |       | *\- Position*                                                                                        |        |       |
@@ -38,7 +38,7 @@
 |       | *\- strider disappears after reaching cameo_strider_0_goal_1*                                       |        |       |
 |       | **Misc**                                                                                              |        |       |
 |       | player-strider0 (ai_relationship) is set so the strider ignores the player                        |        |       |
-| A2    | 📌 **Mines Entrance Puzzle**                                                                             |        |       |
+| **A2**    | 📌 **Mines Entrance Puzzle**                                                                             |        |       |
 |       | **Essential weapon pickup**                                                                           |        |       |
 |       | Crowbar (weapon_crowbar) is obtainable                                                            |        |       |
 |       | **Mines entrance room**                                                                               |        |       |
@@ -50,8 +50,8 @@
 |       | *\- The player can remove 2 planks (func_physbox) supporting the mines gate*                        |        |       |
 |       | *\- ballsocket2 (phys_ballsocket) enables smooth gate rotation*                                     |        |       |
 |       | **Autosave 1**                                                                                        |        |       |
-| A3    | Autosave1 volume (trigger_autosave) saves the game                                                |        |       |
-| A4    | 📌 **Door lock puzzle**                                                                                  |        |       |
+| **A3**    | Autosave1 volume (trigger_autosave) saves the game                                                |        |       |
+| **A4**    | 📌 **Door lock puzzle**                                                                                  |        |       |
 |       | **Sequence start**                                                                                    |        |       |
 |       | Thump_trigger2 (trigger_once) functions correctly:                                                |        |       |
 |       | *\- Triggers window_thumper_spawner2 (npc_template_maker)*                                          |        |       |
@@ -78,7 +78,7 @@
 |       | thumper2_zombie_schedule (aiscripted_schedule) works correctly:                                   |        |       |
 |       | *\- Affects window_thumper2 (npc_zombie)*                                                           |        |       |
 |       | *\- Zombie runs to thump2_zombie_target (info_target)*                                              |        |       |
-| A5    |📌 **Zombie Ambush 1 sequence**                                                                          |        |       |
+| **A5**    |📌 **Zombie Ambush 1 sequence**                                                                          |        |       |
 |       | **Sequence start**                                                                                    |        |       |
 |       | Ambush_trigger_1 (trigger_once) works correctly:                                                  |        |       |
 |       | *\- Turns on pocket_1_finder (npc_enemyfinder)*                                                     |        |       |
@@ -98,7 +98,7 @@
 |       | pocket_2_zombie_2_schedule (aiscripted_schedule) works correctly:                                 |        |       |
 |       | *\- Target NPC: pocket_2_zombie_2 (npc_zombie)*                                                     |        |       |
 |       | *\- Goal entity: target_pocket2 (info_target)*                                                      |        |       |
-| A6    | 📌 **Zombie Ambush 2 sequence**                                                                          |        |       |
+| **A6**    | 📌 **Zombie Ambush 2 sequence**                                                                          |        |       |
 |       | **Sequence start**                                                                                    |        |       |
 |       | Ambush_trigger 2 (trigger_once) works correctly:                                                  |        |       |
 |       | *\- Triggers suprise_zombie1_maker (npc_template_maker)*                                            |        |       |
@@ -128,9 +128,9 @@
 |       | *\- Action animation: slumprise_a2*                                                                 |        |       |
 |       | *\- Interruptibility: Off*                                                                          |        |       |
 |       | *\- Loop Action Animation: No*                                                                      |        |       |
-| A6    | **Autosave 2**                                                                                        |        |       |
+| **A6**    | **Autosave 2**                                                                                        |        |       |
 |       | Autosave2 volume (trigger_autosave) saves the game                                                |        |       |
-| A8    | 📌 **Elevator puzzle**                                                                                   |        |       |
+| **A8**    | 📌 **Elevator puzzle**                                                                                   |        |       |
 |       | **Sequence trigger**                                                                                  |        |       |
 |       | Window_thump_trigger (trigger_once) works correctly:                                              |        |       |
 |       | *\- Triggers window_thumper_spawner (npc_template_maker)*                                           |        |       |
@@ -147,13 +147,13 @@
 |       | - Can be canceled by:                                                                            |        |       |
 |       |   *\- Damaging the target NPC*                                                                        |        |       |
 |       |   *\- Window_thump_cancel_trigger (trigger_once)*                                                     |        |       |
-| A8    | 📌 **Restoring elevator power**                                                                          |        |       |
+| **A8**    | 📌 **Restoring elevator power**                                                                          |        |       |
 |       | power_button_mines (func_button) starts:                                                          |        |       |
 |       | *\- Unlocks elevator_button_bottom_floor (func_button)*                                             |        |       |
 |       | *\- starts "turn_ON" animation*                                                                     |        |       |
 |       | *\- disables elevator_spark (elevator_spark) near the elevator button*                              |        |       |
 |       | *\- turns on the green_light (light) near the elevator button*                                      |        |       |
-| A7    | 📌 **Elevator ambush sequence**                                                                          |        |       |
+| **A7**    | 📌 **Elevator ambush sequence**                                                                          |        |       |
 |       | **Pressing the elevator button**                                                                      |        |       |
 |       | elevator_button_bottom_floor (func_button) works correctly:                                       |        |       |
 |       | *\- Plays sound elevator_sounds (ambient generic)*                                                  |        |       |
@@ -206,40 +206,40 @@
 |       | elevator_button (func_button) works correctly:                                                    |        |       |
 |       | *\- Closes elevator_door (prop_dynamic)*                                                            |        |       |
 |       | *\- Starts elevator2 (func_tracktrain) ascent*                                                      |        |       |
-| A7    | 📌 **Level transition**                                                                                  |        |       |
-|       | Second_part_5 trigger (trigger_changelevel) succesffully triggers the new level: Second_part_5.bsp |        |       |
+| **A7**    | 📌 **Level transition**                                                                                  |        |       |
+|       | Second_part_5 trigger (trigger_changelevel) successfully triggers the new level: Second_part_5.bsp |        |       |
 |       | 📌 **Pickups**                                                                                           |        |       |
 |       | 🟨 **Medium priority**                                                                                   |        |       |
 |       | Optional weapons are obtainable:                                                                  |        |       |
-| A9    | *\- Shotgun (weapon_shotgun)*                                                                       |        |       |
-|       | All crates are obraitanble:                                                                       |        |       |
-| A2    | *\- item_crate_1 - contains: item_battery*                                                             |        |       |
-| A5    | *\- item_crate_2 - contains: item_dynamic_resupply*                                                    |        |       |
-| A6    | *\- item_crate_3 - contains: item_dynamic_resupply*                                                    |        |       |
-| A6    | *\- item_crate_4 - contains: item_dynamic_resupply*                                                    |        |       |
-| A9    | *\- item_crate_5 - contains: item_dynamic_resupply*                                                    |        |       |
-| A9    | *\- item_crate_6 - contains: item_dynamic_resupply*                                                    |        |       |
-| A7    | *\- item_crate_7 - contains: item_dynamic_resupply*                                                    |        |       |
+| **A9**    | *\- Shotgun (weapon_shotgun)*                                                                       |        |       |
+|       | All crates are obtainable:                                                                       |        |       |
+| **A2**    | *\- item_crate_1 - contains: item_battery*                                                             |        |       |
+| **A5**    | *\- item_crate_2 - contains: item_dynamic_resupply*                                                    |        |       |
+| **A6**    | *\- item_crate_3 - contains: item_dynamic_resupply*                                                    |        |       |
+| **A6**    | *\- item_crate_4 - contains: item_dynamic_resupply*                                                    |        |       |
+| **A9**    | *\- item_crate_5 - contains: item_dynamic_resupply*                                                    |        |       |
+| **A9**    | *\- item_crate_6 - contains: item_dynamic_resupply*                                                    |        |       |
+| **A7**    | *\- item_crate_7 - contains: item_dynamic_resupply*                                                    |        |       |
 |       | Individual items are obtainable:                                                                  |        |       |
-| A2    | *\- item_battery x2*                                                                                   |        |       |
-| A8    | *\- item_ammo_pistol*                                                                                  |        |       |
-| A8    | *\- item_healthvial*                                                                                   |        |       |
-|       | **Static enemies**                                                                                    |        |       |
+| **A2**    | *\- item_battery x2*                                                                                   |        |       |
+| **A8**    | *\- item_ammo_pistol*                                                                                  |        |       |
+| **A8**    | *\- item_healthvial*                                                                                   |        |       |
+|       | 📌 **Static enemies**                                                                                    |        |       |
 |       | npc_barnacles function correctly:                                                                 |        |       |
-| A6    | *\- x7 npc_barnacle*                                                                                   |        |       |
-| A7    | *\- x3 npc_barnacle*                                                                                   |        |       |
-| A9    | *\- x5 npc_barnacle*                                                                                   |        |       |
+| **A6**    | *\- x7 npc_barnacle*                                                                                   |        |       |
+| **A7**    | *\- x3 npc_barnacle*                                                                                   |        |       |
+| **A9**    | *\- x5 npc_barnacle*                                                                                   |        |       |
 |       | 📌 **Interactable objects**                                                                              |        |       |
 |       | Wooden crates are interactable:                                                                   |        |       |
-| A2    | *\- x3*                                                                                                |        |       |
-| A3    | *\- x4*                                                                                               |        |       |
-| A4    | *\- x6*                                                                                                |        |       |
-| A6    | *\- x2*                                                                                                |        |       |
-| A9    | *\- x5*                                                                                                |        |       |
+| **A2**    | *\- x3*                                                                                                |        |       |
+| **A3**    | *\- x4*                                                                                               |        |       |
+| **A4**    | *\- x6*                                                                                                |        |       |
+| **A6**    | *\- x2*                                                                                                |        |       |
+| **A9**    | *\- x5*                                                                                                |        |       |
 |       | Barells (non-explosive) are interactable:                                                         |        |       |
-| A5    | *\- x2*                                                                                                |        |       |
-| A6    | *\- x1*                                                                                                |        |       |
+| **A5**    | *\- x2*                                                                                                |        |       |
+| **A6**    | *\- x1*                                                                                                |        |       |
 |       | Barells (explosive) are interactable:                                                             |        |       |
-| A4    | *\- x1*                                                                                                |        |       |
-| A5    | *\- x3*                                                                                                |        |       |
-| A7    | *\- x1*                                                                                                |        |       |
+| **A4**    | *\- x1*                                                                                                |        |       |
+| **A5**    | *\- x3*                                                                                                |        |       |
+| **A7**    | *\- x1*                                                                                                |        |       |
