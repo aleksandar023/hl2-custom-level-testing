@@ -104,7 +104,7 @@ The following materials will be produced and maintained as part of the testing p
 
   * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, encounter triggers, and pickups:   
 
-  * Entity sequence diagrams (e.g., puzzle/encounter flowcharts) created with Draw.io for clarity on logic dependencies.
+  * Entity sequence diagrams (**[Part1](./images/The_Tunnels_System_Diagram_Part_1.drawio.svg)** & **[Part2](./images/The_Tunnels_System_Diagram_Part_2.drawio.svg)**) created with Draw.io for clarity on logic dependencies.
 
 * **Test Summary Report** – A short summary of the testing outcome, major findings, and final recommendations.
 
