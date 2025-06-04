@@ -93,52 +93,52 @@
 |       | *\- Triggers pocket_2_zombie_2_schedule (aiscripted_schedule)*                                      |        |       |
 |       | **AI Schedules**                                                                                      |        |       |
 |       | pocket_2_zombie_1_schedule (aiscripted_schedule) works correctly:                                 |        |       |
-|       | \- Target NPC: pocket_2_zombie_1 (npc_zombie)                                                     |        |       |
-|       | \- Goal entity: target_pocket1 (info_target)                                                      |        |       |
+|       | *\- Target NPC: pocket_2_zombie_1 (npc_zombie)*                                                     |        |       |
+|       | *\- Goal entity: target_pocket1 (info_target)*                                                      |        |       |
 |       | pocket_2_zombie_2_schedule (aiscripted_schedule) works correctly:                                 |        |       |
-|       | \- Target NPC: pocket_2_zombie_2 (npc_zombie)                                                     |        |       |
-|       | \- Goal entity: target_pocket2 (info_target)                                                      |        |       |
-| A6    | 📌 Zombie Ambush 2 sequence                                                                          |        |       |
-|       | Sequence start                                                                                    |        |       |
+|       | *\- Target NPC: pocket_2_zombie_2 (npc_zombie)*                                                     |        |       |
+|       | *\- Goal entity: target_pocket2 (info_target)*                                                      |        |       |
+| A6    | 📌 **Zombie Ambush 2 sequence**                                                                          |        |       |
+|       | **Sequence start**                                                                                    |        |       |
 |       | Ambush_trigger 2 (trigger_once) works correctly:                                                  |        |       |
-|       | \- Triggers suprise_zombie1_maker (npc_template_maker)                                            |        |       |
-|       | \- Triggers npc_zombie_wakeup2 (scripted_sequence)                                                |        |       |
-|       | \- Turns on suprise_2_finder (npc_enemyfinder)                                                    |        |       |
-|       | \- Breaks plank2 (func_breakable) (delay 0.10s)                                                   |        |       |
-|       | \- Plays sound_shanty_zombiebreakthru (ambient_generic) (delay 0.10s)                             |        |       |
-|       | \- Plays sound_shanty_zombiebreakthru_scream (ambient_generic) (delay 0.30s)                      |        |       |
-|       | NPC spawning                                                                                      |        |       |
+|       | *\- Triggers suprise_zombie1_maker (npc_template_maker)*                                            |        |       |
+|       | *\- Triggers npc_zombie_wakeup2 (scripted_sequence)*                                                |        |       |
+|       | *\- Turns on suprise_2_finder (npc_enemyfinder)*                                                    |        |       |
+|       | *\- Breaks plank2 (func_breakable) (delay 0.10s)*                                                   |        |       |
+|       | *\- Plays sound_shanty_zombiebreakthru (ambient_generic) (delay 0.10s)*                             |        |       |
+|       | *\- Plays sound_shanty_zombiebreakthru_scream (ambient_generic) (delay 0.30s)*                      |        |       |
+|       | **NPC spawning**                                                                                      |        |       |
 |       | suprise_zombie1_maker (npc_template_maker) works correctly:                                       |        |       |
-|       | \- Spawns suprise_zombie1 (npc_zombie)                                                            |        |       |
-|       | \- Triggers script_surprise_zombiebreakthru (scripted_sequence)                                   |        |       |
-|       | Scripted Sequence (Zombie breaks through planks)                                                  |        |       |
+|       | *\- Spawns suprise_zombie1 (npc_zombie)*                                                            |        |       |
+|       | *\- Triggers script_surprise_zombiebreakthru (scripted_sequence)*                                   |        |       |
+|       | **Scripted Sequence (Zombie breaks through planks)**                                                  |        |       |
 |       | script_surprise_zombiebreakthru (scripted_sequence) has proper inputs:                            |        |       |
-|       | \- Target NPC: suprise_zombie1                                                                    |        |       |
-|       | \- Action animation: Breakthrough                                                                 |        |       |
-|       | \- Interruptibility: Off                                                                          |        |       |
-|       | \- Loop Action Animation: No                                                                      |        |       |
-|       | \- Triggers (OnEndSequence): suprise_zombie1_schedule (aiscripted_schedule)                       |        |       |
-|       | AI Schedule Behavior                                                                              |        |       |
+|       | *\- Target NPC: suprise_zombie1*                                                                    |        |       |
+|       | *\- Action animation: Breakthrough*                                                                 |        |       |
+|       | *\- Interruptibility: Off*                                                                          |        |       |
+|       | *\- Loop Action Animation: No*                                                                      |        |       |
+|       | *\- Triggers (OnEndSequence): suprise_zombie1_schedule (aiscripted_schedule)*                       |        |       |
+|       | **AI Schedule Behavior**                                                                              |        |       |
 |       | suprise_zombie1_schedule (aiscripted_schedule) works correctly:                                   |        |       |
-|       | \- Target NPC: suprise_zombie1 (npc_zombie)                                                       |        |       |
-|       | \- Goal entity: the player                                                                        |        |       |
-|       | Scripted Animation (Zombie wake-up)                                                               |        |       |
+|       | *\- Target NPC: suprise_zombie1 (npc_zombie)*                                                       |        |       |
+|       | *\- Goal entity: the player*                                                                        |        |       |
+|       | **Scripted Animation (Zombie wake-up)**                                                               |        |       |
 |       | npc_zombie_wakeup2 (scripted_sequence) has proper inputs:                                         |        |       |
-|       | \- Target NPC: suprise_zombie2 (npc_zombie)                                                       |        |       |
-|       | \- Action animation: slumprise_a2                                                                 |        |       |
-|       | \- Interruptibility: Off                                                                          |        |       |
-|       | \- Loop Action Animation: No                                                                      |        |       |
-| A6    | Autosave 2                                                                                        |        |       |
+|       | *\- Target NPC: suprise_zombie2 (npc_zombie)*                                                       |        |       |
+|       | *\- Action animation: slumprise_a2*                                                                 |        |       |
+|       | *\- Interruptibility: Off*                                                                          |        |       |
+|       | *\- Loop Action Animation: No*                                                                      |        |       |
+| A6    | **Autosave 2**                                                                                        |        |       |
 |       | Autosave2 volume (trigger_autosave) saves the game                                                |        |       |
-| A8    | 📌 Elevator puzzle                                                                                   |        |       |
-|       | Sequence trigger                                                                                  |        |       |
+| A8    | 📌 **Elevator puzzle**                                                                                   |        |       |
+|       | **Sequence trigger**                                                                                  |        |       |
 |       | Window_thump_trigger (trigger_once) works correctly:                                              |        |       |
-|       | \- Triggers window_thumper_spawner (npc_template_maker)                                           |        |       |
-|       | NPC spawning                                                                                      |        |       |
+|       | *\- Triggers window_thumper_spawner (npc_template_maker)*                                           |        |       |
+|       | **NPC spawning**                                                                                      |        |       |
 |       | window_thumper_spawner (npc_template_maker) works correctly:                                      |        |       |
-|       | \- Spawns window_thumper (npc_zombie)                                                             |        |       |
-|       | \- Triggers window_thump (scripted_sequence)                                                      |        |       |
-|       | Window thump scripted Animation                                                                   |        |       |
+|       | *\- Spawns window_thumper (npc_zombie)*                                                             |        |       |
+|       | *\- Triggers window_thump (scripted_sequence)*                                                      |        |       |
+|       | **Scripted Sequence (Window thump animation)**                                                                   |        |       |
 |       | window_thump (scripted_sequence) has proper inputs:                                               |        |       |
 |       | \- Target NPC: window_thumper                                                                     |        |       |
 |       | \- Action animation: WallPound                                                                    |        |       |
