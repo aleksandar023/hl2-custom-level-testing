@@ -165,81 +165,81 @@
 |       |   *\-green_light2 (delay 20s)*                                                                        |        |       |
 |       |   *\-green_light3 (delay 30s)*                                                                        |        |       |
 |       |   *\-green_light4 (delay 40s)*                                                                        |        |       |
-|       | Elevator ambush - Left room                                                                       |        |       |
+|       | **Elevator ambush - Left room**                                                                       |        |       |
 |       | Triggers elevator_events1 (logic_relay) works correctly:                                          |        |       |
-|       | \- Turns on enemyfinder_elev (npc_enemyfinder)                                                    |        |       |
-|       | \- Plays roar_sounds (ambient_generic) (delay 2s)                                                 |        |       |
-|       | \- Plays roar_sounds2 (ambient_generic) (delay 3s)                                                |        |       |
-|       | \- Plays roar_sounds3 (ambient_generic) (delay 4s)                                                |        |       |
-|       | \- Triggers zombie_breakthru_elevator1_maker (npc_template_maker) (delay 6s)                      |        |       |
-|       | \- Triggers zombie_breakthru_elevator2_maker (npc_template_maker) (delay 6s)                      |        |       |
-|       | \- Triggers zombie_breakthru_elevator3_maker (npc_template_maker) (delay 6s)                      |        |       |
-|       | \- Breaks shack_door_3_expl (func_breakable) (delay 6,10s)                                        |        |       |
-|       | \- Plays sound_shanty_zombiebreakthru44 (ambient_generic) (delay 6,10s)                           |        |       |
-|       | \- Plays sound_shanty_zombiebreakthru_scream44 (ambient_generic) (delay 6,30s)                    |        |       |
-|       | NPC spawning                                                                                      |        |       |
+|       | *\- Turns on enemyfinder_elev (npc_enemyfinder)*                                                    |        |       |
+|       | *\- Plays roar_sounds (ambient_generic) (delay 2s)*                                                 |        |       |
+|       | *\- Plays roar_sounds2 (ambient_generic) (delay 3s)*                                                |        |       |
+|       | *\- Plays roar_sounds3 (ambient_generic) (delay 4s)*                                                |        |       |
+|       | *\- Triggers zombie_breakthru_elevator1_maker (npc_template_maker) (delay 6s)*                      |        |       |
+|       | *\- Triggers zombie_breakthru_elevator2_maker (npc_template_maker) (delay 6s)*                      |        |       |
+|       | *\- Triggers zombie_breakthru_elevator3_maker (npc_template_maker) (delay 6s)*                      |        |       |
+|       | *\- Breaks shack_door_3_expl (func_breakable) (delay 6,10s)*                                        |        |       |
+|       | *\- Plays sound_shanty_zombiebreakthru44 (ambient_generic) (delay 6,10s)*                           |        |       |
+|       | *\- Plays sound_shanty_zombiebreakthru_scream44 (ambient_generic) (delay 6,30s)*                    |        |       |
+|       | **NPC spawning**                                                                                      |        |       |
 |       | zombie_breakthru_elevator1_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator1 (npc_zombie)                                                 |        |       |
+|       | *\- Spawns zombie_breakthru_elevator1 (npc_zombie)*                                                 |        |       |
 |       | zombie_breakthru_elevator2_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator2 (npc_zombie)                                                 |        |       |
+|       | *\- Spawns zombie_breakthru_elevator2 (npc_zombie)*                                                 |        |       |
 |       | zombie_breakthru_elevator3_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator3 (npc_zombie)                                                 |        |       |
-|       | Elevator ambush - Right room                                                                      |        |       |
+|       | *\- Spawns zombie_breakthru_elevator3 (npc_zombie)*                                                 |        |       |
+|       | **Elevator ambush - Right room**                                                                      |        |       |
 |       | Triggers elevator_events2 (logic_relay) works correctly:                                          |        |       |
-|       | \- Plays roar_sounds4 (ambient_generic) (delay14.30S)                                             |        |       |
-|       | \- Triggers zombie_breakthru_elevator4_maker (npc_template_maker) (delay 15s)                     |        |       |
-|       | \- Triggers zombie_breakthru_elevator5_maker (npc_template_maker) (delay 15s)                     |        |       |
-|       | \- Triggers zombie_breakthru_elevator6_maker (npc_template_maker) (delay 15s)                     |        |       |
-|       | \- Triggers zombie_breakthru_elevator7_maker (npc_template_maker) (delay 15s)                     |        |       |
-|       | \- Breaks shack_door_4_expl (func_breakable) (delay15.10)                                         |        |       |
-|       | \- Plays sound_shanty_zombiebreakthru45 (ambient_generic) (delay15.10S)                           |        |       |
-|       | NPC spawning                                                                                      |        |       |
+|       | *\- Plays roar_sounds4 (ambient_generic) (delay14.30S)                                             |        |       |
+|       | *\- Triggers zombie_breakthru_elevator4_maker (npc_template_maker) (delay 15s)*                     |        |       |
+|       | *\- Triggers zombie_breakthru_elevator5_maker (npc_template_maker) (delay 15s)*                     |        |       |
+|       | *\- Triggers zombie_breakthru_elevator6_maker (npc_template_maker) (delay 15s)*                     |        |       |
+|       | *\- Triggers zombie_breakthru_elevator7_maker (npc_template_maker) (delay 15s)*                     |        |       |
+|       | *\- Breaks shack_door_4_expl (func_breakable) (delay15.10)*                                         |        |       |
+|       | *\- Plays sound_shanty_zombiebreakthru45 (ambient_generic) (delay15.10S)*                           |        |       |
+|       | **NPC spawning**                                                                                      |        |       |
 |       | zombie_breakthru_elevator4_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator4 (npc_zombie)                                                 |        |       |
+|       | *\- Spawns zombie_breakthru_elevator4 (npc_zombie)*                                                 |        |       |
 |       | zombie_breakthru_elevator5_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator5 (npc_zombie)                                                 |        |       |
+|       | *\- Spawns zombie_breakthru_elevator5 (npc_zombie)*                                                 |        |       |
 |       | zombie_breakthru_elevator6_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator6 (npc_zombie)                                                 |        |       |
+|       | *\- Spawns zombie_breakthru_elevator6 (npc_zombie)*                                                 |        |       |
 |       | zombie_breakthru_elevator7_maker (npc_template_maker) works correctly:                            |        |       |
-|       | \- Spawns zombie_breakthru_elevator7 (npc_zombie)                                                 |        |       |
-|       | Using the elevator                                                                                |        |       |
+|       | *\- Spawns zombie_breakthru_elevator7 (npc_zombie)*                                                 |        |       |
+|       | **Using the elevator**                                                                                |        |       |
 |       | elevator_button (func_button) works correctly:                                                    |        |       |
-|       | \- Closes elevator_door (prop_dynamic)                                                            |        |       |
-|       | \- Starts elevator2 (func_tracktrain) ascent                                                      |        |       |
-| A7    | 📌 Level transition                                                                                  |        |       |
+|       | *\- Closes elevator_door (prop_dynamic)*                                                            |        |       |
+|       | *\- Starts elevator2 (func_tracktrain) ascent*                                                      |        |       |
+| A7    | 📌 **Level transition**                                                                                  |        |       |
 |       | Second_part_5 trigger (trigger_changelevel) succesfully triggers the new level: Second_part_5.bsp |        |       |
 |       | 📌 **Pickups**                                                                                           |        |       |
 |       | 🟨 **Medium priority**                                                                                   |        |       |
 |       | Optional weapons are obtainable:                                                                  |        |       |
-| A9    | \- Shotgun (weapon_shotgun)                                                                       |        |       |
+| A9    | *\- Shotgun (weapon_shotgun)*                                                                       |        |       |
 |       | All crates are obraitanble:                                                                       |        |       |
-| A2    | item_crate_1 - contains: item_battery                                                             |        |       |
-| A5    | item_crate_2 - contains: item_dynamic_resupply                                                    |        |       |
-| A6    | item_crate_3 - contains: item_dynamic_resupply                                                    |        |       |
-| A6    | item_crate_4 - contains: item_dynamic_resupply                                                    |        |       |
-| A9    | item_crate_5 - contains: item_dynamic_resupply                                                    |        |       |
-| A9    | item_crate_6 - contains: item_dynamic_resupply                                                    |        |       |
-| A7    | item_crate_7 - contains: item_dynamic_resupply                                                    |        |       |
+| A2    | - item_crate_1 - contains: item_battery                                                             |        |       |
+| A5    | - item_crate_2 - contains: item_dynamic_resupply                                                    |        |       |
+| A6    | - item_crate_3 - contains: item_dynamic_resupply                                                    |        |       |
+| A6    | - item_crate_4 - contains: item_dynamic_resupply                                                    |        |       |
+| A9    | - item_crate_5 - contains: item_dynamic_resupply                                                    |        |       |
+| A9    | - item_crate_6 - contains: item_dynamic_resupply                                                    |        |       |
+| A7    | - item_crate_7 - contains: item_dynamic_resupply                                                    |        |       |
 |       | Individual items are obtainable:                                                                  |        |       |
-| A2    | item_battery x2                                                                                   |        |       |
-| A8    | item_ammo_pistol                                                                                  |        |       |
-| A8    | item_healthvial                                                                                   |        |       |
-|       | Static enemies                                                                                    |        |       |
+| A2    | - item_battery x2                                                                                   |        |       |
+| A8    | - item_ammo_pistol                                                                                  |        |       |
+| A8    | - item_healthvial                                                                                   |        |       |
+|       | **Static enemies**                                                                                    |        |       |
 |       | npc_barnacles function correctly:                                                                 |        |       |
-| A6    | x7 npc_barnacle                                                                                   |        |       |
-| A7    | x3 npc_barnacle                                                                                   |        |       |
-| A9    | x5 npc_barnacle                                                                                   |        |       |
+| A6    | - x7 npc_barnacle                                                                                   |        |       |
+| A7    | - x3 npc_barnacle                                                                                   |        |       |
+| A9    | - x5 npc_barnacle                                                                                   |        |       |
 |       | 📌 **Interactable objects**                                                                              |        |       |
 |       | Wooden crates are interactable:                                                                   |        |       |
-| A2    | x3                                                                                                |        |       |
-| A3    | x4                                                                                                |        |       |
-| A4    | x6                                                                                                |        |       |
-| A6    | x2                                                                                                |        |       |
-| A9    | x5                                                                                                |        |       |
+| A2    | - x3                                                                                                |        |       |
+| A3    | - x4                                                                                                |        |       |
+| A4    | - x6                                                                                                |        |       |
+| A6    | - x2                                                                                                |        |       |
+| A9    | - x5                                                                                                |        |       |
 |       | Barells (non-explosive) are interactable:                                                         |        |       |
-| A5    | x2                                                                                                |        |       |
-| A6    | x1                                                                                                |        |       |
+| A5    | - x2                                                                                                |        |       |
+| A6    | - x1                                                                                                |        |       |
 |       | Barells (explosive) are interactable:                                                             |        |       |
-| A4    | x1                                                                                                |        |       |
-| A5    | x3                                                                                                |        |       |
-| A7    | x1                                                                                                |        |       |
+| A4    | - x1                                                                                                |        |       |
+| A5    | - x3                                                                                                |        |       |
+| A7    | - x1                                                                                                |        |       |
