@@ -1,14 +1,17 @@
 >🔗 For better readability, I recommend viewing the document in Google Sheets format: [Google Sheets format](https://docs.google.com/spreadsheets/d/17luq0CCqfkIL_criP5OvxDQzWQod9SIVYd5c3S6c9CM/edit?usp=sharing)
 
 <details>
-  <summary>See the reference image for easier orientation around the map</summary>
+  <summary>Refer to the visual references to assist with navigation and logic verification during testing</summary>
   <p>
-    <img src="images/Zone_map.png" alt="My Image">
+
+📎 Top-down map overview with marked zones, spawn/exit points, encounter triggers, and pickups:
+
+Entity sequence diagrams (📎 Part1 & 📎 Part2) created with Draw.io for clarity on logic dependencies.
   </p>
 </details>
-![Alt text](images/Custom_level_diagram.drawio.svg)
 
-![Diagram](images/Custom_level_diagram.drawio.svg)
+
+
 
 
 | **Zone**  | Gameplay and Logic Checklist                                                                      | Status | Notes |
