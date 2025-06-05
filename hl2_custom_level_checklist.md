@@ -17,7 +17,7 @@
 | **Zone**  | Gameplay and Logic Checklist                                                                      | Status | Notes |
 | ----- | ------------------------------------------------------------------------------------------------- | ------ | ----- |
 |       | 🟥 **High priority**                                                                                      |        |       |
-| **A1-A9** | **Level layout validation**                                                                           |        |       |
+| **A1-A9** | 📌 **Level layout validation**                                                                           |        |       |
 |       | All intended areas of the level are accessible                                                    |        |       |
 |       | The player cannot get outside the playable bounds                                                 |        |       |
 |       | Level geometry has consistent collision (no invisible walls)                                      |        |       |
