@@ -4,9 +4,9 @@
   <summary>Refer to the visual references to assist with navigation and logic verification during testing</summary>
   <p>
 
-📎 Top-down map overview with marked zones, spawn/exit points, encounter triggers, and pickups:
+  * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, encounter triggers, and pickups:   
 
-Entity sequence diagrams (📎 Part1 & 📎 Part2) created with Draw.io for clarity on logic dependencies.
+  * Entity sequence diagrams (📎 **[Part1](./images/The_Tunnels_System_Diagram_Part_1.drawio.svg)** & 📎 **[Part2](./images/The_Tunnels_System_Diagram_Part_2.drawio.svg)**) created with Draw.io for clarity on logic dependencies.
   </p>
 </details>
 
