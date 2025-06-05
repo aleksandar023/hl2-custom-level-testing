@@ -10,7 +10,7 @@ Entity sequence diagrams (📎 Part1 & 📎 Part2) created with Draw.io for clar
   </p>
 </details>
 
-
+---
 
 
 
