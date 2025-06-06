@@ -64,7 +64,7 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 * **Platform:** PC, Windows 10
 
 * **Game Version:** Half-Life 2, 
-  * **Build ID:** 17324696
+  * **Build:** 9526483 
 
 * **Map File:** Level_tunnels_system.bsp
   * **Version:** v1.6
