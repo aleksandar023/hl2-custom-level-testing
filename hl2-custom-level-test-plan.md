@@ -75,7 +75,7 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
   * Google Sheets - for checklist creation and test tracking
   * draw.io – for visual event diagrams (puzzle/enemy logic flow)
   * Adobe Photoshop - for annotated top-down map creation
-  * Nvidia app for taking screenshots & videos
+  * Nvidia app for taking screenshots and videos
   * Handbrake for compressing and trimming videos
 
 
