@@ -107,7 +107,7 @@ The following materials will be produced and maintained as part of the testing p
 
   * Entity sequence diagrams (📎 **[Part1](./images/The_Tunnels_System_Diagram_Part_1.drawio.svg)** & 📎 **[Part2](./images/The_Tunnels_System_Diagram_Part_2.drawio.svg)**) created with Draw.io for clarity on logic dependencies.
 
-* **Test Summary Report** – A concise overview of testing outcomes, including the areas covered, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
+* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including the areas covered, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
 
 ## Exit Criteria
 
