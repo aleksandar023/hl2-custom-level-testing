@@ -5,13 +5,13 @@
 
 This testing effort follows a structured manual QA process based on a detailed checklist to validate the “Tunnel System” section (version 1.6)  of the custom Half-Life 2 level titled “Coast.” The primary goal is to verify gameplay-critical logic, including enemy encounters, scripted events, and puzzle progression.
 
-## Checklist test results:
+## Checklist test results:  
 
 
-*Total checks:* 178
-*Passed:*175
-*Failed:* 3
-(See full checklist here)
+* **Total checks:** 178  
+* **Passed:** 175  
+* **Failed:** 3  
+(See full checklist here)  
 
 
 ## Newly reported bugs:*
