@@ -25,7 +25,7 @@ Zombie reacts when being shot at during the scripted sequence, entering the comb
 
 **Attachments:**
 
-📎 [Hl2001 The Tunnels System.mp4](./images/Hl2001 The Tunnels System.mp4)
+📎 [Hl2001 The Tunnels System.mp4](./images/Hl2001_The_Tunnels_System.mp4)
 
 
 ---
@@ -58,4 +58,4 @@ Pressing the button should not generate any invisible or obstructive collision t
 
 **Attachments:**
 
-📎 [Hl2002 The Tunnels System.mp4](./images/Hl2002 The Tunnels System.mp4)
+📎 [Hl2002 The Tunnels System.mp4](./images/Hl2002_The_Tunnels_System.mp4)
