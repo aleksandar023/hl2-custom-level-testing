@@ -21,6 +21,7 @@ Zombie reacts when being shot at during the scripted sequence, entering the comb
 - Platform: PC
 - Operating System: Windows 10
 - Game Version: Half-Life 2, build: 9526483
+- Map File: Level_tunnels_system.bsp, Version: v1.6
 - Display: 1920x1080, Fullscreen
 
 **Attachments:**
