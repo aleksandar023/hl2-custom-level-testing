@@ -98,7 +98,7 @@ The following materials will be produced and maintained as part of the testing p
 
 * 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
 
-* **Bug Report Log** – A log of all identified bugs, including descriptions, reproduction steps, affected entities, map areas, and resolution status.
+* **[Bug Report Log]*([hl2_custom_level_checklist.md](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-bugs.md))** – A log of all identified bugs, including descriptions, reproduction steps, affected entities, map areas, and resolution status.
 
 * **Visual References:**
 
