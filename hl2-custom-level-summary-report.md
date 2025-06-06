@@ -11,9 +11,7 @@ This testing effort follows a structured manual QA process based on a detailed c
 * **Total checks:** 178  
 * **Passed:** 175  
 * **Failed:** 3  
-> (See full checklist here)  
-
-* 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)**
+> (See full checklist here): 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)**
 
 
 ## Newly reported bugs:*
