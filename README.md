@@ -2,11 +2,10 @@
 
 ### Summary
 
-
-This project focuses on QA testing for a custom level built in Half-Life 2, titled "Coast". The level includes puzzle encounters, scripted events, and combat sequences. 
-This repository contains detailed QA documentation, including test plans, checklists, bug reports, and test summaries.
+This test plan outlines the manual QA process for the "The Tunnels System" section of my custom Half-Life 2 level "Coast”. The focus of the project is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. Content side of testing is planned for future iterations.
 
 
+* 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key design decisions, including gameplay mechanics, level layout, narrative elements and primary inspirations
   
 * 📎 **[Test Plan Document](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-test-plan.md)** – A document outlining the objectives, scope, strategy, environment, and exit criteria used in testing the level.
 
