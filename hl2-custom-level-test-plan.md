@@ -51,12 +51,13 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 
 * **Event Chain Verification** - Combat encounters and puzzles are grouped into named sequences made up of smaller, interdependent scripted actions. To support verification of input/output logic and flow, each event sequence is visualized using a graph diagram illustrating the order and relationship between entities.
 
-* **Checklist-Driven Coverage** - A comprehensive testing checklist was created, covering all logic responsible for enemy encounters, puzzles, player spawning, autosaving, and other key gameplay elements. Tests were prioritized based on priority and structured to follow the logical flow of the level. Additionally, each checklist section was mapped to a specific zone (A1–A9), as outlined in the level map, to ensure full spatial and functional coverage.
+* **Checklist-Driven Coverage** - A comprehensive testing checklist was created, covering all logic responsible for enemy encounters, puzzles, player spawning, autosaving, and other key gameplay elements. Tests were prioritized based on priority and structured to follow the logical flow of the level. Since I am both the creator and tester of this custom Half-Life 2 level, I have used technical naming conventions based on the in-engine structure (e.g., entity names). This approach streamlines the testing process by allowing direct reference to key logic elements without ambiguity.
+
+Additionally, each checklist section was mapped to a specific zone (A1–A9), as outlined in the level map, to ensure full spatial and functional coverage.
 
 * **Negative Testing** - Intentionally breaking gameplay logic, such as bypassing puzzles, interrupting enemy AI, or triggering entities out of sequence, ensuring that the level behaves predictably under unintended conditions.
 
-* **Regression testing** - Re-test previously reported issues after fixes to confirm no new regressions are introduced.
-
+* **Regression testing** - Re-test previously reported issues after fixes to confirm no new defects are introduced.
 
 
 ## Environment and Tools
@@ -99,15 +100,15 @@ The following materials will be produced and maintained as part of the testing p
 
 * 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
 
-* 📎 **[Bug Report Log](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-bugs.md)** – A log of all identified bugs, including descriptions, reproduction steps, affected entities, map areas, and resolution status.
+* 📎 **[Bug Report Log](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-bugs.md)** – A log of all identified bugs, including bug summaries, reproduction steps, observed and expected results, severity, environment and attachments
 
 * **Visual References:**
 
-  * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, encounter triggers, and pickups:   
+  * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, various encounters, puzzles, and pickups   
 
   * Entity sequence diagrams (📎 **[Part1](./images/The_Tunnels_System_Diagram_Part_1.drawio.svg)** & 📎 **[Part2](./images/The_Tunnels_System_Diagram_Part_2.drawio.svg)**) created with Draw.io for clarity on logic dependencies.
 
-* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including the areas covered, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
+* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including test tasks, results, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
 
 ## Exit Criteria
 
