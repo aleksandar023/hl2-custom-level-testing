@@ -95,7 +95,7 @@ The following materials will be produced and maintained as part of the testing p
 
 * 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key level design decisions, including gameplay mechanics, level layout, narrative elements, environmental storytelling, and primary inspiration:
   
-* **Test Plan Document** – This document outlining the objectives, scope, strategy, environment, and approach used in testing the level.
+* **Test Plan Document** – A document outlining the objectives, scope, strategy, environment, and exit criteria used in testing the level.
 
 * 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
 
