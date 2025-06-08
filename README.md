@@ -8,7 +8,7 @@ This repository contains detailed QA documentation, including test plans, checkl
 
 
   
-* 📎 **[Test Plan Document](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-test-plan.md)** – This document outlining the objectives, scope, strategy, environment, and approach used in testing the level.
+* 📎 **[Test Plan Document](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-test-plan.md)** – A document outlining the objectives, scope, strategy, environment, and exit criteria used in testing the level.
 
 * 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
 
