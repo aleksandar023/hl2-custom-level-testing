@@ -2,7 +2,11 @@
 
 ### Summary
 
-This test plan outlines the manual QA process for the "The Tunnels System" section of my custom Half-Life 2 level "Coast”. The focus of the project is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. Content side of testing is planned for future iterations.
+This test plan outlines the manual QA process for the "The Tunnels System" section of my custom Half-Life 2 level "Coast”. The focus of the project is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. The Content side of testing is planned for future iterations.
+
+Knowledge about the gameplay logic and its structure in the Source engine allowed me to create more targeted checklists, achieve better test coverage, and more easily detect edge cases.
+
+
 
 
 * 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key design decisions, including gameplay mechanics, level layout, narrative elements and primary inspirations
