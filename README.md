@@ -7,7 +7,9 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 Knowledge about the gameplay logic and its structure in the Source engine allowed me to create more targeted checklists, achieve better test coverage, and more easily detect edge cases.
 
 
+### Deliverables
 
+Below is a list of all deliverables used throughout the testing process:
 
 * 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key design decisions, including gameplay mechanics, level layout, narrative elements and primary inspirations
   
