@@ -1,10 +1,8 @@
 # Half-Life 2 Custom Level QA Project
 
-### Summary
+### Intro
 
 This test plan outlines the manual QA process for the "The Tunnels System" section of my custom Half-Life 2 level "Coast”. The focus of the project is to verify gameplay-critical logic and ensure reliable player progression through all enemy encounters and puzzles. The Content side of testing is planned for future iterations.
-
-Knowledge about the gameplay logic and its structure in the Source engine allowed me to create more targeted checklists, achieve better test coverage, and more easily detect edge cases.
 
 
 ### Deliverables
@@ -21,3 +19,5 @@ Below is a list of all deliverables used throughout the testing process:
 
 * 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including test tasks, results, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
 
+### Summary
+I really enjoyed working on this project, building and testing the level side by side made the whole process more fun and insightful. Knowledge about the gameplay logic and its structure in the Source engine allowed me to create more targeted checklists, achieve better test coverage, and more easily detect edge cases. Going forward, I want to dive deeper into other parts of the Source engine and start applying what I’ve learned to other engines too, especially Unreal Engine 5.
