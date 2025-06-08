@@ -14,5 +14,5 @@ This repository contains detailed QA documentation, including test plans, checkl
 
 * 📎 **[Bug Report Log](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-bugs.md)** – A log of all identified bugs, including bug summaries, reproduction steps, observed and expected results, severity, environment and attachments
 
-* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including the areas covered, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
+* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including test tasks, results, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
 
