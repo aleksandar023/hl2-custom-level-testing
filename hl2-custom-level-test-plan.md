@@ -8,7 +8,7 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 
 * Validate the level's layout and navigation, ensuring all intended areas of the level are accessible 
 * Ensure all enemy encounters and puzzles play out correctly by verifying the behaviour and placement of individual point and brush entities.
-* Verify the correct placement and functionality of interactible objects
+* Verify the correct placement and functionality of interactable objects
 
 ## Scope of Testing
 
@@ -53,7 +53,7 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 
 * **Checklist-Driven Coverage** - A comprehensive testing checklist was created, covering all logic responsible for enemy encounters, puzzles, player spawning, autosaving, and other key gameplay elements. Tests were prioritized based on priority and structured to follow the logical flow of the level. Additionally, each checklist section was mapped to a specific zone (A1–A9), as outlined in the level map, to ensure full spatial and functional coverage.
 
-* **Negative Testing** - Intentionally breaking gameplay logic—such as bypassing puzzles, interrupting enemy AI, or triggering entities out of sequence—to ensure the level behaves predictably under unintended conditions.
+* **Negative Testing** - Intentionally breaking gameplay logic, such as bypassing puzzles, interrupting enemy AI, or triggering entities out of sequence, ensuring that the level behaves predictably under unintended conditions.
 
 * **Regression testing** - Re-test previously reported issues after fixes to confirm no new regressions are introduced.
 
