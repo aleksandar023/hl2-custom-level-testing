@@ -94,9 +94,9 @@ Additionally, each checklist section was mapped to a specific zone (A1–A9), as
 ## Deliverables
 The following materials will be produced and maintained as part of the testing process:
 
-* 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key level design decisions, including gameplay mechanics, level layout, narrative elements, environmental storytelling, and primary inspiration:
+* 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key design decisions, including gameplay mechanics, level layout, narrative elements and primary inspiration:
   
-* **Test Plan Document** – A document outlining the objectives, scope, strategy, environment, and exit criteria used in testing the level.
+* **Test Plan Document** – A document outlining the objectives, scope, strategy, environment and exit criteria used in testing the level.
 
 * 📎 **[Gameplay and Logic Checklist](https://github.com/aleksandar023/hl2-custom-level-testing/blob/eb85b0661592b8e2e0afdaf15278467a1480a820/hl2_custom_level_checklist.md)** – A detailed checklist covering all map zones (A1–A9), scripted events, enemy encounters, puzzles, pickups, and transitions. Used to drive and document test coverage.
 
@@ -104,11 +104,11 @@ The following materials will be produced and maintained as part of the testing p
 
 * **Visual References:**
 
-  * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, various encounters, puzzles, and pickups   
+  * 📎 **[Top-down map](./images/The_Tunnels_System_Zones_Map.png)** overview with marked zones, spawn/exit points, various encounters, puzzles and pickups   
 
   * Entity sequence diagrams (📎 **[Part1](./images/The_Tunnels_System_Diagram_Part_1.drawio.svg)** & 📎 **[Part2](./images/The_Tunnels_System_Diagram_Part_2.drawio.svg)**) created with Draw.io for clarity on logic dependencies.
 
-* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including test tasks, results, newly discovered and reopened defects, encountered issues or trends, and any other relevant findings
+* 📎 **[Test Summary Report](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-summary-report.md)** – A concise overview of testing outcomes, including test tasks, results, newly discovered and reopened defects, encountered issues or trends and any other relevant findings
 
 ## Exit Criteria
 
