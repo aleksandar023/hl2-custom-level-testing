@@ -7,9 +7,9 @@ This test plan outlines the manual QA process for the "The Tunnels System" secti
 
 ### Deliverables
 
-Below is a list of all documentation created during the testing process:
+Below is a list of all documentation created throughout the testing process:
 
-* 📎 **[Design document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key design decisions, including gameplay mechanics, level layout, narrative elements and primary inspirations
+* 📎 **[Design Document](https://www.artstation.com/artwork/g8vPvZ)** - A reference document outlining the rationale behind key design decisions, including gameplay mechanics, level layout, narrative elements and primary inspirations
   
 * 📎 **[Test Plan Document](https://github.com/aleksandar023/hl2-custom-level-testing/blob/main/hl2-custom-level-test-plan.md)** – A document outlining the objectives, scope, strategy, environment, and exit criteria used in testing the level.
 
